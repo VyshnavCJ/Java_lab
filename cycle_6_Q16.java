@@ -122,5 +122,7 @@ class Main{
 			System.out.print("Do want to perform more operations ?(y/n) :");
                         c =  sc.next().charAt(0);
                 } while (c == 'y' || c == 'Y');
+                sc.close();
         }
+        
 }
